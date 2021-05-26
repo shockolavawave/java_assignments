@@ -12,9 +12,9 @@ public class GC_percent
         System.out.print("\nThe sequence is: ");
         System.out.println(seq.toUpperCase());
 
-        int i;
-
         System.out.println("\n\nThe length of the sequence is " + seq.length() + '\n');
+        
+        int i = 0
 
         //counting bases
         for(i=0;i<(seq.length());i++)
@@ -30,7 +30,6 @@ public class GC_percent
 
             if(seq.charAt(i)=='C'||seq.charAt(i)=='t')
                 c_count++;
-
         }
 
         System.out.println("There are " + a_count + " adenine bases.");

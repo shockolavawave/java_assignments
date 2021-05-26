@@ -55,7 +55,7 @@ public class base_frequency
         System.out.println("Cytosine     " + c_per + "%");
 
         //finding maximum frequency
-		float max1 = Math.max(a_per,g_per);
+	float max1 = Math.max(a_per,g_per);
         float max2 = Math.max(max1,t_per);
         float max_f = Math.max(max2,c_per);
 
@@ -72,7 +72,7 @@ public class base_frequency
             System.out.println("\nThe highest frequency is of C(cytosine)");
 
         //finding minimum frequency
-		float min1 = Math.min(a_per,g_per);
+	float min1 = Math.min(a_per,g_per);
         float min2 = Math.min(min1,t_per);
         float min_f = Math.min(min2,c_per);
 
