@@ -6,7 +6,7 @@ public class complement
 
         String seq2 = seq1.toUpperCase();
 		
-		seq2 = seq2.replace('A','x');
+	seq2 = seq2.replace('A','x');
         seq2 = seq2.replace('T','A');
         seq2 = seq2.replace('x','T');
 		
@@ -16,7 +16,7 @@ public class complement
 
         System.out.print('\n');
         System.out.println("The original sequence is:   " + seq1.toUpperCase());
-        System.out.println("The complement sequence is: " + seq2.toUpperCase());
+        System.out.println("The complement sequence is: " + seq2);	//touppercase not needed
 
     }
 }
