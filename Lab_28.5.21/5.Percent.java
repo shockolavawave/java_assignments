@@ -16,5 +16,6 @@ public class Percent {
 			System.out.println("The student has passed.");
 		}else{
 			System.out.println("The student has failed.");
-		}    }
+		}
+	}
 }
