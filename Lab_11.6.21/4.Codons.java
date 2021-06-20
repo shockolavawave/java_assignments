@@ -1,6 +1,7 @@
 package CodonPack;
 
 // compile the package first
+// command line version
 
 class Codons{
 
