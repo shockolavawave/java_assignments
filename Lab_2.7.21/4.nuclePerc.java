@@ -122,7 +122,7 @@ class awtPerc extends Frame implements ActionListener{
 					txtOu.setText(result + disSeq);
 
 				}else{
-					la2.setText("");
+					la2.setText("***ERROR***");
 					txtOu.setText("""
 						Undesired characters in the input.
 						Only A/G/T/C are allowed.
@@ -134,6 +134,7 @@ class awtPerc extends Frame implements ActionListener{
 			}
 			case "Clear all" -> {
 				txtIn.setText("");
+				la2.setText("");
 				txtOu.setText("*results*");
 			}
 			case "close" -> fr.dispose();
