@@ -19,7 +19,7 @@ class Box{
         System.out.println("The default values are:\n" +
                            "width  = " + boxObj.w + " units" + '\n' +
                            "height = " + boxObj.h + " units" + '\n' +
-                           "width  = " + boxObj.d + " units" + '\n');
+                           "depth  = " + boxObj.d + " units" + '\n');
 
         System.out.println("The volume using default values is: " + boxObj.volume() + " cubic units" + '\n');
 
