@@ -116,10 +116,9 @@ class awtPerc extends Frame implements ActionListener{
 							"Thymine  (T) : " + dF1.format(t_count) + " residues         " + dF2.format(t_perc) + " %" + '\n' +
 							"Cytosine (C) : " + dF1.format(c_count) + " residues         " + dF2.format(c_perc) + " %" + "\n\n" +
 							"Sequence length: " + seq.length() + "\n\n" +
-							"Your sequence is:\n\n";
+							"Your sequence is:\n\n" + seqDisplay(seq);
 
-					String disSeq = seqDisplay(seq);
-					txtOu.setText(result + disSeq);
+					txtOu.setText(result);
 
 				}else{
 					la2.setText("***ERROR***");
